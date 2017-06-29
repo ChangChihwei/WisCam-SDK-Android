@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:id="@+id/Media" android:background="@color/white">
+
+	<RelativeLayout
+		android:id="@+id/media_title"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/blue_title">
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/media_back">
+			<ImageView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/back"
+				android:layout_gravity="center_vertical"
+				></ImageView>
+		</LinearLayout>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="@color/white"
+			android:textSize="24sp"
+			android:text="@string/playback_text"
+			android:layout_centerInParent="true"/>
+	</RelativeLayout>
+
+ <LinearLayout
+	 	android:layout_below="@+id/media_title"
+	    android:orientation="horizontal"
+	    android:layout_width="match_parent"
+	    android:layout_height="fill_parent"
+	    >
+	<LinearLayout
+		android:id="@+id/media_photo"
+		android:orientation="vertical"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:layout_weight="1"
+		>
+	 	<component.MainMenuButton
+		 	android:layout_width="wrap_content"
+		 	android:layout_height="wrap_content"
+		 	android:id="@+id/photo_db"
+		 	android:src="@drawable/library_picture"/>
+		 <TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="@color/black"
+			android:textSize="20sp"
+			android:layout_gravity="center_horizontal"
+			android:text="@string/i_text"
+			android:layout_weight="1"/>
+	</LinearLayout>
+
+
+	 <LinearLayout
+		 android:id="@+id/media_video"
+		 android:orientation="vertical"
+		 android:layout_weight="1"
+		 android:layout_width="0dp"
+		 android:layout_height="wrap_content"
+		 android:layout_gravity="center"
+		 android:gravity="center"
+		 >
+		 <component.MainMenuButton
+			 android:layout_width="wrap_content"
+			 android:layout_height="wrap_content"
+			 android:id="@+id/video_db"
+			 android:src="@drawable/library_video"/>
+		 <TextView
+			 android:layout_width="wrap_content"
+			 android:layout_height="wrap_content"
+			 android:textColor="@color/black"
+			 android:textSize="20sp"
+			 android:layout_gravity="center_horizontal"
+			 android:text="@string/v_text"
+			 android:layout_weight="1"/>
+	 </LinearLayout>
+ </LinearLayout>
+</RelativeLayout>

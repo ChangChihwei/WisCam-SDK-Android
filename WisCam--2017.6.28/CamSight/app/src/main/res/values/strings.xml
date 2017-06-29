@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">WisCam</string>
+    <string name="connecting">CONNECTING...</string>
+    <string name="no_device">NO DEVICE FOUND!</string>
+    <string name="no_video">NO VIDEO, PLEASE CHECK VIDEO SOURCE...</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="playback_text">Playback</string>
+    <string name="back_text">Back</string>
+    <string name="i_text">Images</string>
+    <string name="v_text">Video</string>
+    <string name="photo_text">Photo</string>
+    <string name="video_text">Video</string>
+    <string name="delete_photo_title_note">Delete photo</string>
+    <string name="delete_video_title_note">Delete video</string>
+    <string name="delete_photo_admin_note">Are you sure to delete these photos?</string>
+    <string name="delete_video_admin_note">Are you sure to delete these videos?</string>
+
+    <string name="permission_title_note">No Permission</string>
+    <string name="permission_admin_note">Please make sure that the application be authorized the permission to read and write files.</string>
+</resources>

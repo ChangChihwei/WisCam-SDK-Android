@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- colors.xml
+* File: colors.xml
+* Copyright © 2013, Texas Instruments Incorporated - http://www.ti.com/
+* All rights reserved.
+ -->
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey_background">#E1E1E1</color>
+    <color name="menu_red">#DB4341</color>
+    <color name="menu_blue">#00A5E0</color>
+    <color name="grey_min">#CCCCCC</color>
+    <color name="grey_little">#999999</color>
+    <color name="grey_most">#282828</color>
+    <color name="grey_more">#3C3F41</color>
+    <color name="blue_title">#2AA7E7</color>
+</resources>
